@@ -34,7 +34,7 @@ end
 
 local function AutoLoad()
     Utils.Network:Notify("Auto Execute Sky Hub System", "Executed!", 15)
-    Utils.Network:QueueOnTeleport("loadstring(game:HttpGet(''))();");
+    Utils.Network:QueueOnTeleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/yMajestyx/Project/main/Loader.lua'))();");
 end
 
 spawn(function()
