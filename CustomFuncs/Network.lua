@@ -1,4 +1,4 @@
-local NotificationLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/yMajestyx/CustomFuncs/main/NotifyLib/Core.lua"))()
+local NotificationLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/yMajestyx/Project/main/CustomFuncs/NotifyLib/Core.lua"))()
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
